@@ -13,7 +13,7 @@ Console.Write("Введите целые числа от 1 до 4 . Число m
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Число n = ");
 int n = Convert.ToInt32(Console.ReadLine());
-if( m > 0 && m < 4 && n > 0 && n < 4){
+if( m >-1 && m < 4 && n > -1 && n < 4){
 int x = Akkerman(m, n);
 Console.Write($" m = {m}, n = {n} -> A({m},{n}) = {x}");
 }
